@@ -11,7 +11,11 @@
 	// 	}
 	// },
 	// Set *default* container specific settings.json values on container create.
-	"settings": {},
+	"settings": {
+		"[html]": {
+			"editor.defaultFormatter": "vscode.html-language-features"	// Default vscode formatter for html
+		}
+	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"zhuangtongfa.material-theme",	// Theme: One Dark Pro
